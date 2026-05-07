@@ -7,6 +7,7 @@ class Hdc < Formula
   homepage "https://github.com/steffakasid/helmfile-dependency-checker"
   version "1.1.0"
   license "Apache-2.0"
+  deprecate! date: "2026-05-07", because: "use steffakasid/tap/hdc instead"
 
   on_macos do
     on_intel do
